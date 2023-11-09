@@ -14,4 +14,4 @@ O site contará com a função de contagem de gols e assistências.
 * [Lucas Fragoso](https://github.com/LucasWFragoso)
 * [Paulo Abrantes](https://github.com/pauloabrantesii)
 * [Saulo Pinto](https://github.com/Olausz)
-* [Gabriel Nascimento](https://github.com/)
+* [Gabriel Nascimento](https://github.com/Gabrielnascimentoooo)
