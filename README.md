@@ -1,5 +1,6 @@
 # Projeto Front-End
-
+# Template
+Segue o [TEMPLATE](https://github.com/Caio01fds/Projeto_FrontEnd/blob/dev-Juan/style/template.css) do arquivo css que inclue o Input's com placeholder e alinhamento da label e input, Label, BOX, campo de fundo, e checkbox pronta.
 ## Tema do Projeto
 Site para organização de "pelada" com cadastro de pessoas para o jogo, com a opção de sorteio de times ou time pré-definido.
 O site contará com a função de contagem de gols e assistências.
