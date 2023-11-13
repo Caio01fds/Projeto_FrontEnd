@@ -84,3 +84,10 @@
   background-position: 0.1rem;
 }
 /*----------------------------------------------------*/
+/*Alinha os input's com a label*/
+.inputAling {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
