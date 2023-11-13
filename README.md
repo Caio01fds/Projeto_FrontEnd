@@ -1,5 +1,8 @@
 # Projeto Front-End
-
+* [CSS](https://github.com/Caio01fds/Projeto_FrontEnd/tree/dev-Juan#c%C3%B3digo-css)
+* [HTML](https://github.com/Caio01fds/Projeto_FrontEnd/tree/dev-Juan#exemplo-html)
+* [TEMA](https://github.com/Caio01fds/Projeto_FrontEnd/tree/dev-Juan#tema-do-projeto)
+* [FIGMA](https://github.com/Caio01fds/Projeto_FrontEnd/tree/dev-Juan#figma)
 # Template
 
 Segue o [TEMPLATE](https://github.com/Caio01fds/Projeto_FrontEnd/blob/dev-Juan/style/template.css) do arquivo css que inclue o Input's com placeholder e alinhamento da label e input, Label, BOX, campo de fundo, e checkbox pronta.
