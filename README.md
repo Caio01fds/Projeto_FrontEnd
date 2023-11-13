@@ -6,7 +6,12 @@
 # Template
 
 Segue o [TEMPLATE](https://github.com/Caio01fds/Projeto_FrontEnd/blob/dev-Juan/style/template.css) do arquivo css que inclue o Input's com placeholder e alinhamento da label e input, Label, BOX, campo de fundo, e checkbox pronta.
-
+### Nome e icone da página
+Colocar no Head
+```html
+    <title>ARTILHEIROS</title>
+    <link rel="icon" type="image/x-icon" href="./IMG/Logo.png" />
+```
 ### EXEMPLO HTML:
 
 ```html
