@@ -1,0 +1,86 @@
+/*----------------------------------------------------*/
+/*layout dos input's*/
+.input input {
+  width: 21rem;
+  height: 2.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #40515b;
+  border-radius: 0.5rem;
+  background: #40515b;
+  color: #586a77;
+  padding-left: 3em;
+  background-image: url(../img/user.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+  background-size: 1.8em;
+}
+/*----------------------------------------------------*/
+/*placegolder dos input's(colocar na div)*/
+.placeholder ::placeholder {
+  font-family: Poppins;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/*----------------------------------------------------*/
+/*BOX do centro da tela*/
+.box {
+  width: 37.5rem;
+  height: 37.5rem;
+  border-radius: 2.625rem;
+  display: grid;
+  background-color: rgba(42, 53, 56, 0.4);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*----------------------------------------------------*/
+/*Label dos input's(colocar na div)*/
+.label label {
+  padding-left: 0.5em;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/*----------------------------------------------------*/
+/*Backgroud do campo de futebol*/
+.campo {
+  background-image: url("../img/Background.png");
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-size: cover;
+}
+/*----------------------------------------------------*/
+/*Centralizar o Form para o meio da BOX*/
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+/*----------------------------------------------------*/
+/*Checkbox*/
+.checkbox input[type="checkbox"] {
+  appearance: none;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  width: 20px;
+  height: 20px;
+}
+.checkbox input[type="checkbox"]:checked {
+  border-color: #b4d9fb;
+  background: url(../img/checkbox.svg) no-repeat rgba(87, 87, 87, 0.39);
+  background-position: 0.1rem;
+}
+/*----------------------------------------------------*/
