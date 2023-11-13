@@ -6,13 +6,15 @@ Segue o [TEMPLATE](https://github.com/Caio01fds/Projeto_FrontEnd/blob/dev-Juan/s
 
 ### EXEMPLO:
 
-´´´
+```html
 <div class="input inputAling label placeholder">
     <label for="jogador">Nº de Jogadores de Linha p/ Equipe</label>
     <input type="text" name="jogador" id="jogador" placeholder="Digite o nº de Jogadores" required>
 </div>
-´´´
-´´´
+```
+ou
+
+```html
 <div class="campo">
     <div class="box">
         <div class="form">
@@ -23,7 +25,7 @@ Segue o [TEMPLATE](https://github.com/Caio01fds/Projeto_FrontEnd/blob/dev-Juan/s
         </div>
     </div>
 </div>
-´´´
+```
 
 ## Tema do Projeto
 
