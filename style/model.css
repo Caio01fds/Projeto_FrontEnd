@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Roboto:wght@400;500&display=swap");
 /*----------------------------------------------------*/
 /*layout dos input's*/
-.input input {
+.input input[type="text"] {
   width: 21rem;
   height: 2.75rem;
   border-radius: 0.25rem;
@@ -14,6 +14,23 @@
   background-repeat: no-repeat;
   background-position: 0.5em;
   background-size: 1.8em;
+}
+.input input[type=list] {
+  width: 21rem;
+  height: 2.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #40515b;
+  border-radius: 0.5rem;
+  background: #40515b;
+  color: #586a77;
+  padding-left: 3em;
+  background-image: url(../img/setaDown.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+  background-size: 1.8em;
+}
+.input input[type="range"] {
+  width: 24rem;
 }
 /*----------------------------------------------------*/
 /*placegolder dos input's(colocar na div)*/
@@ -51,11 +68,12 @@
 /*----------------------------------------------------*/
 /*Backgroud do campo de futebol*/
 .campo {
-  background-image: url("../img/Background.png");
+  background-image: url("../img/Background.svg");
   background-repeat: no-repeat;
   bottom: 0;
   left: 0;
   overflow: auto;
+  display: flex;
   position: absolute;
   right: 0;
   top: 0;
@@ -84,6 +102,18 @@
   background: url(../img/checkbox.svg) no-repeat rgba(87, 87, 87, 0.39);
   background-position: 0.1rem;
 }
+.checkbox input[type="radio"] {
+  appearance: none;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  width: 20px;
+  height: 20px;
+}
+.checkbox input[type="radio"]:checked {
+  border-color: #b4d9fb;
+  background: url(../img/checkbox.svg) no-repeat rgba(87, 87, 87, 0.39);
+  background-position: 0.1rem;
+}
 /*----------------------------------------------------*/
 /*Alinha os input's com a label*/
 .inputAling {
@@ -91,4 +121,17 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
+}
+/*----------------------------------------------------*/
+.btn button {
+  border-radius: 3.125rem;
+  border-color: #051524;
+  background: #d9d9d9;
+  color: #051524;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 15.375rem;
+  height: 2.1875rem;
 }

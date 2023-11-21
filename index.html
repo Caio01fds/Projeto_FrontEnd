@@ -13,40 +13,51 @@
     <div class="campo">
       <div class="box">
         <div class="form">
-          <h1>Configurações da Pelada</h1>
-
-          <div class="input inputAling label placeholder">
-            <label for="jogador">Nº de Jogadores de Linha p/ Equipe</label>
-            <input
-              type="text"
-              name="jogador"
-              id="jogador"
-              placeholder="Digite o nº de Jogadores"
-              required
-            />
-          </div>
-
-          <div class="input inputAling label placeholder">
-            <label for="jogador">Nº de Equipes</label>
-            <input
-              type="text"
-              name="jogador"
-              id="jogador"
-              placeholder="Digite o nº de times"
-              required
-            />
-          </div>
-
-          <p>Goleiro incluso no sorteio?</p>
-          <div class="checkbox label">
-            <label for="sim"
-              ><input type="checkbox" name="sim" id="sim" />SIM
-            </label>
-
-            <label for="nao">
-              <input type="checkbox" name="nao" id="nao" />NÃO</label
-            >
-          </div>
+          <form action="">
+            <div class="input inputAling label placeholder">
+              <label for="jogador">Descreva o tipo de pelada:</label>
+              <!-- <input list="browsers" name="browser" id="browser" />
+              <datalist id="browsers">
+                <option value="Society">5 Jogadores</option>
+                <option value="Quadra">4 jogadores</option>
+                <option value="Campo">10 Jogadores</option>
+              </datalist> -->
+            </div>
+            <div class="input inputAling label">
+              <label for="qtd_equipe">Nº de Equipes</label>
+              <input
+                type="range"
+                name="qtd_equipe"
+                id="qtd_equipe"
+                min="1"
+                max="10"
+              />
+            </div>
+            <div class="input label">
+              <label for="goleiro">Goleiro incluso no sorteio?</label>
+              <div class="checkbox goleiroAling">
+                <input
+                  type="radio"
+                  id="sim"
+                  name="goleiro"
+                  value="sim"
+                  required
+                />
+                <label for="sim">SIM</label>
+                <input
+                  type="radio"
+                  id="nao"
+                  name="goleiro"
+                  value="nao"
+                  required
+                />
+                <label for="nao">NÃO</label>
+              </div>
+            </div>
+            <div class="btn">
+              <button type="submit">SEGUIR</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
