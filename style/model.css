@@ -124,14 +124,13 @@
 }
 /*----------------------------------------------------*/
 .btn button {
-  border-radius: 3.125rem;
-  border-color: #051524;
-  background: #d9d9d9;
-  color: #051524;
   font-family: Poppins;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  width: 15.375rem;
-  height: 2.1875rem;
+  font-weight: 600;
+  padding: 5px 50px;
+  font-size: 18px;
+  background-color: #d9d9d9;
+  border: 0;
+  border-radius: 40px;
+  color: #060e22;
+  text-decoration: none;
 }
