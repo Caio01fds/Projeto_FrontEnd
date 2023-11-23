@@ -1,0 +1,82 @@
+h1 {
+    color: #FFF;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: -4rem;
+  padding-bottom: 2rem;
+  display: flex;
+  position: fixed;
+  top: 7rem;
+  left: 17rem;
+}
+.box {
+    width: 50rem;
+    height: 30rem;
+  }
+  .checkbox {
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.checkbox label {
+ align-items: center;
+ align-items: center;
+ align-self: center;
+}
+.box2 {
+  display: flex;
+  width: 13rem;
+  height: 13rem;
+  background-color: rgba(245, 238, 238, 0.027);
+  border-radius: 2rem;
+  position: fixed;
+  left: 8rem;
+  top: 10rem;
+}
+.e
+
+.p1 {
+position: relative;
+top: 9rem;
+left: -9rem;
+text-align: center;
+}
+
+.box3 {
+  display: flex;
+  width: 13rem;
+  height: 13rem;
+  background-color: rgba(245, 238, 238, 0.027);
+  border-radius: 2rem;
+  position: fixed;
+  left: 29rem;
+  top: 10rem;
+}
+.p2 {
+position: relative;
+left: -11em;
+top: 9rem;
+white-space: nowrap;
+}
+
+.box2:hover {
+  box-shadow: 0px 0px 8px rgb(32, 0, 32);
+  transform: scale();
+}
+
+.box3:hover {
+  box-shadow: 0px 0px 8px rgb(32, 0, 32);
+  transform: scale();
+}
