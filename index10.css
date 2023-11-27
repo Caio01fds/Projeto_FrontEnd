@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Roboto:wght@400;500&display=swap);
+
+:root {
+  --text-color: white;
+ 
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(img/background.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  background-attachment: fixed;
+}
+
+.containerpai{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+
+.container{
+    width:1100px;
+    height: 720px;
+    border-radius: 40px;
+    margin: 50px;    
+    background-color: rgba(42, 53, 56, 0.4) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--text-color);
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: var(--text-font1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;  
+}
+
+input{
+  width: 21rem;
+  height: 2.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #40515b;
+  border-radius: 0.5rem;
+  background: #40515b;
+  color: #586a77;
+  padding-left: 3em;
+  background-image: url(acessorios/user.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+  background-size: 1.8em;
+}
+
+.placeholder ::placeholder {
+  font-family: Poppins;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+button {
+  margin-bottom: 2rem;
+  width: 205px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #d9d9d9; 
+   
+}
+
+#button0 {
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 16px;  
+  font-size: medium;
+}
+
+h1 {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+h5 {
+  margin-top: -2rem;
+  text-align: center;
+}
+
+Label {
+  padding-left: 0.5em;
+}
+

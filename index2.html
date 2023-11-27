@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARTILHEIROS</title>
+    <link rel="icon" type="image/x-icon" href="./IMG/Logo.png" />
+  </head>
+  <link rel="stylesheet" href="style/model.css" />
+  <link rel="stylesheet" href="style/index.css" />
+  <body>
+    <div class="campo">
+      <div class="box">
+        <div class="form">
+          <form action="">
+            <h1>Configurações da Pelada</h1>
+
+            <div class="input inputAling label placeholder">
+              <label for="jogador">Descreva o tipo de pelada:</label>
+              <select name="tipo_pelada" id="tipo_pelada">
+                <option value="quadra">Quadra 4 jogadores</option>
+                <option value="society">Society 5 Jogadores</option>
+                <option value="campo">Campo 10 Jogadores</option>
+              </select>
+            </div>
+            <div class="input inputAling label">
+              <label for="qtd_equipe">Nº de Equipes</label>
+              <input
+                type="range"
+                name="qtd_equipe"
+                id="qtd_equipe"
+                min="2"
+                max="8"
+                list="equipe_qtd" 
+              />
+              <datalist id="equipe_qtd">
+                <option value="2" label="2"></option>
+                <option value="3" label="3"></option>
+                <option value="4" label="4"></option>
+                <option value="5" label="5"></option>
+                <option value="6" label="6"></option>
+                <option value="7" label="7"></option>
+                <option value="8" label="8"></option>
+              </datalist>
+            </div>
+            <div class="goleiroAling label">
+              <label for="goleiro">Goleiro incluso no sorteio?</label>
+            </div>
+
+            <div class="radioAling checkbox input label">
+              <div class="radio">
+                <input
+                  type="radio"
+                  id="sim"
+                  name="goleiro"
+                  value="sim"
+                  required
+                />
+                <label for="sim">SIM</label>
+              </div>
+              <div class="radio">
+                <input
+                  type="radio"
+                  id="nao"
+                  name="goleiro"
+                  value="nao"
+                  required
+                />
+                <label for="nao">NÃO</label>
+              </div>
+            </div>
+
+            <div class="btn">
+              <button type="submit"><a href="index3.html">SEGUIR</a></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
