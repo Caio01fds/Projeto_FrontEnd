@@ -7,8 +7,8 @@
   border-radius: 0.25rem;
   border: 1px solid #40515b;
   border-radius: 0.5rem;
-  background: #40515b;
-  color: #586a77;
+  background: rgba(180, 217, 251, 0.28);
+  color: rgba(255, 255, 255, 0.35);
   padding-left: 3em;
   background-image: url(../img/user.svg);
   background-repeat: no-repeat;
@@ -45,8 +45,8 @@
 /*----------------------------------------------------*/
 /*BOX do centro da tela*/
 .box {
-  width: 37.5rem;
-  height: 37.5rem;
+  width: 59rem;
+  height: 34rem;
   border-radius: 2.625rem;
   display: grid;
   background-color: rgba(42, 53, 56, 0.28);
@@ -69,7 +69,7 @@
 /*----------------------------------------------------*/
 /*Backgroud do campo de futebol*/
 .campo {
-  background-image: url("../img/Background.svg");
+  background-image: url("../img/background.svg");
   background-repeat: no-repeat;
   bottom: 0;
   left: 0;
@@ -123,14 +123,34 @@
   align-items: flex-start;
 }
 /*----------------------------------------------------*/
-.btn button {
+.btn-seguir {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+a {
   font-family: Poppins;
   font-weight: 600;
   padding: 5px 50px;
   font-size: 18px;
-  background-color: #d9d9d9;
+  background-color: #D9D9D9;
   border: 0;
   border-radius: 40px;
-  color: #060e22;
+  color: #060E22;
   text-decoration: none;
+}
+
+h1 {
+  margin-top: 5rem;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
 }
